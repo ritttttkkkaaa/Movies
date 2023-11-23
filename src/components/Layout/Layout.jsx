@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import { Suspense } from "react";
 import {List,ListItem,Nav,Main} from "./Layout.module";
 
 const Layout = () => {
@@ -16,7 +17,9 @@ return (
  </List>
   </Nav>
  <Main>
-   <Outlet/>
+  <Suspense>
+    <Outlet/>
+  </Suspense>
  </Main>
 </div>
 );
