@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import TrendyMovieList from "components/TrendyMovieList";
+import TrendyMovieList from "components/TrendyMovieList/TrendyMovieList";
 import { getMovieByName } from "services/movieApi";
 import {Input,Button} from "./Movie.module"
 

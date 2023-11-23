@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import { getTrendyMovies } from 'services/movieApi';
-import TrendyMovieList from '../components/TrendyMovieList'
+import TrendyMovieList from 'components/TrendyMovieList/TrendyMovieList';
 import { Title } from './Home.module';
 
 
